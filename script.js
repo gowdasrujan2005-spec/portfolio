@@ -24,4 +24,5 @@ function addProject() {
 
 function deleteProject(button) {
     button.parentElement.remove();
+
 }
