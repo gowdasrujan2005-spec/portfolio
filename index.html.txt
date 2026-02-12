@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>S Srujan Gowda</h1>
+        <p>USN: 1VA23CD083</p>
+        <p>Email: gowdasrujan2005@gmail.com | Phone: 9380466518</p>
+    </header>
+
+    <!-- Education Section -->
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li>B.E in Computer Science and Engineering(Data Science) – Sai Vidya Institution of Technology</li>
+            <li>PUC – Seshadripuram PU College</li>
+            <li>SSLC – Jnana Jyothi High School</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section>
+        <h2>Projects</h2>
+
+        <div id="projectList">
+            <div class="project">
+                <h3>Automated Medicine Interactor</h3>
+                <p>System to detect drug interactions and suggest safe alternatives.</p>
+                <button onclick="deleteProject(this)">Delete</button>
+            </div>
+        </div>
+
+        <h3>Add New Project</h3>
+        <input type="texst" id="projectTitle" placeholder="Project Title">
+        <input type="text" id="projectDesc" placeholder="Project Description">
+        <button onclick="addProject()">+ Add Project</button>
+    </section>
+
+    <!-- Contact Section -->
+    <section>
+        <h2>Contact Me</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit">Send Email</button>
+        </form>
+
+        <h3>Send Me a Message</h3>
+        <textarea placeholder="Your Message"></textarea>
+        <button>Send Message</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
