@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>S Srujan Gowda | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>S Srujan Gowda</h1>
+    <p>Computer Science (Data Science) Student | Aspiring Software Developer</p>
+</header>
+
+<section class="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Computer Science student passionate about programming and problem solving.
+        I have strong fundamentals in C and Python and I am actively improving my DSA skills.
+        My goal is to become a skilled software engineer.
+    </p>
+</section>
+
+<section class="skills">
+    <h2>Technical Skills</h2>
+    <div class="skill-box">
+        <span>C Programming</span>
+        <div class="bar"><div class="fill" style="width: 75%;"></div></div>
+    </div>
+
+    <div class="skill-box">
+        <span>Python</span>
+        <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+    </div>
+</section>
+
+<section class="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+        <h3>Automated Medicine Interactor</h3>
+        <p>
+            Developed a system that detects harmful drug interactions and suggests safer alternatives.
+            Built using Python with logical interaction matching.
+        </p>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact</h2>
+    <p>Email: gowdasrujan2005@gmail.com</p>
+    <p>Phone: 9380466518</p>
+</section>
+
+<footer>
+    <p>© 2026 S Srujan Gowda</p>
+</footer>
+
+</body>
+</html>
